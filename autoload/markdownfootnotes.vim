@@ -155,9 +155,9 @@ function! markdownfootnotes#VimFootnotes(appendcmd)
     endif
     let cr = g:vimfootnotelinebreak ? "\<cr>" : ""
 
-    exe "normal ".a:appendcmd."[^".g:vimfootnotemark."]\<esc>"
+    exe "normal ".a:appendcmd."[^fn".g:vimfootnotemark."]\<esc>"
     :below 4split
     normal G
-    exe "normal o".cr."[^".g:vimfootnotemark."]: "
+    exe "normal o".cr."[^fn".g:vimfootnotemark."]: "
     startinsert!
 endfunction
