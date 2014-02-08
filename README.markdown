@@ -10,16 +10,17 @@ If you have a clone with no changes, one way to fix this is to blow it away and 
 
 ## VimFootnotes for Markdown
 
-This fork is a slight tweak of the venerable [vimfootnotes][], for use
-with extended markdown.
+This fork derived from [this vim-plugin by David Sanson][1], which in turn is
+a slight tweak of the venerable [vimfootnotes][2], for use with extended
+markdown.
 
 The new script inserts footnotes in the widely supported extended markdown
-syntax:
+syntax with the addition of `fn` as a prefix to the current footnote number.
 
 ~~~
-Here is some text.[^1]
+Here is some text.[^fn1]
 
-[^1]: Here is a note.
+[^fn1]: Here is a note.
 ~~~
 
 The footnote number gets determined by an automatic counter whenever a new
