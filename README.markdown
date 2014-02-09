@@ -42,7 +42,10 @@ of the file. A new buffer will open in a split window at the bottom of
 your screen, ready to edit the new footnote. When you are done, type
 `<Leader>r` to close the split and return to the main text.
 
-![Screenshot][5]
+![Screenshot][4]
+
+Sample text produced by the awesome [Samuel L. Ipsum][5].
+
 
 ## Installation
 
@@ -101,5 +104,6 @@ previous type, then the counter will not be restarted.
 [1]: https://github.com/vim-pandoc/vim-markdownfootnotes/
 [2]: http://www.vim.org/scripts/script.php?script_id=431
 [3]: http://www.nickcoleman.org/blog/index.cgi?post=footnotevim%21201102211201%21programming
-[5]: https://raw.github.com/vim-pandoc/vim-markdownfootnotes/master/footnotes.png
+[4]: https://raw.github.com/vim-pandoc/vim-markdownfootnotes/master/footnotes.png
+[5]: http://slipsum.com/
 [6]: https://github.com/tpope/vim-pathogen
